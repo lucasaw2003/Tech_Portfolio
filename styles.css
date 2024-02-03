@@ -68,8 +68,10 @@ button:hover {
 }
 #face {
     height: 100%;
-    width: auto;
+    width: 100%;
     border-radius: 16px;
+    position: relative;
+    left: -30%;
 }
 nav>p {
     color: #557373;
@@ -85,4 +87,94 @@ li {
 li>img {
     width: 10%;
     height: auto;
+}
+.homeButtons {
+    width: 100%;
+}
+.Github_section {
+    display: flex;
+    flex-direction: row;
+}
+.git_logo {
+    height: 50%;
+}
+.projects {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-size: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.languages {
+    display: flex;
+    flex-direction: row;
+}
+.languages>section {
+    width: 50%;
+}
+.lng {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.WGU {
+    width: 50%;
+}
+.WGU_logo {
+    position: relative;
+    left: 30%;
+}
+.linkedin_logo {
+    position: relative;
+    left: 30%;
+}
+.education_content {
+    display: flex;
+    flex-direction: row;
+}
+.Linkedin {
+    width: 50%;
+}
+.experience_content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -300px;
+}
+.ADT, .data, .trusting_brain {
+    width: 50%;
+}
+.float_right {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+.float_left {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+table {
+    width: 200%;
+}
+.eagle_scout, .pole_vaulting {
+    display: flex;
+    flex-direction: row;
+}
+.abt_img {
+    width: 50%;
+    float: left;
+}
+.abt_desc {
+    text-align: left;
+    width: 50%;
+}
+.abt_content {
+    display: grid;
+    grid-template-areas: 
+    ".eagle_scout .pole_vaulting"
+    ".inventions .inventions";
 }

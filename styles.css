@@ -90,6 +90,8 @@ li>img {
 }
 .homeButtons {
     width: 100%;
+    position: relative;
+    left: 10%;
 }
 .Github_section {
     display: flex;
@@ -147,8 +149,11 @@ li>img {
 .ADT, .data, .trusting_brain {
     width: 50%;
 }
+.security {
+    
+}
 .float_right {
-    text-align: right;
+    text-align: left;
     width: 50%;
     float: right;
 }
@@ -177,4 +182,12 @@ table {
     grid-template-areas: 
     ".eagle_scout .pole_vaulting"
     ".inventions .inventions";
+}
+.videos {
+    display: flex;
+    flex-direction: column;
+}
+iframe {
+    position: relative;
+    left: 25%;
 }

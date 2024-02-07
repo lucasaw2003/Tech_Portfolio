@@ -149,9 +149,6 @@ li>img {
 .ADT, .data, .trusting_brain {
     width: 50%;
 }
-.security {
-    
-}
 .float_right {
     text-align: left;
     width: 50%;
@@ -163,7 +160,12 @@ li>img {
     float: left;
 }
 table {
-    width: 200%;
+    width: 100%;
+    align-items: center;
+}
+video {
+    position: relative;
+    left: 50%;
 }
 .eagle_scout, .pole_vaulting {
     display: flex;
